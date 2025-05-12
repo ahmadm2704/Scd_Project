@@ -19,8 +19,8 @@ jobs:
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
       with:
-        username: ${{ secrets.DOCKER_USERNAME }}  # GitHub secret for Docker Hub username
-        password: ${{ secrets.DOCKER_PASSWORD }}  # GitHub secret for Docker Hub password or PAT
+        username: ${{ secrets.ahmadx404 }}  # GitHub secret for Docker Hub username
+        password: ${{ secrets.ahmad5297@ }}  # GitHub secret for Docker Hub password or PAT
 
     - name: Build Frontend Docker Image
       run: |
